@@ -1,0 +1,124 @@
+@import "Static";
+
+#footer {
+  padding: 100px 0 10px;
+  background: #efefef;
+  position: relative;
+}
+
+.title-text {
+  text-align: center;
+  padding-bottom: 70px;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  z-index: 11;
+
+  h1 {
+    font-size: 30px;
+    font-family: $text2;
+    font-weight: 900;
+    color: #1fa0ff;
+    text-shadow: 3px 3px 3px #011e33;
+  }
+}
+
+.title-text h1::after {
+  content: "";
+  width: 90px;
+  height: 55px;
+  background: linear-gradient(#1fa0ff, #fff);
+  position: absolute;
+  top: -20px;
+  left: 30%;
+  z-index: -1;
+  transform: rotate(10deg);
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.footer-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-left,
+.footer-right {
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.footer-right {
+  text-align: right;
+}
+.footer-row h1 {
+  margin: 10px 0;
+}
+.footer-row p {
+  margin: 10px 0;
+  line-height: 35px;
+}
+.footer-left,
+.footer-right .fa-brands {
+  font-size: 20px;
+  color: 20px;
+  color: #27c0ff;
+  margin: 5px;
+}
+.footer-img {
+  max-width: 350px;
+  opacity: 0.1;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  color: black;
+}
+.social-links .fa-brands {
+  padding: 9px;
+  margin: 6px;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  line-height: 40px;
+  border: 1px solid #27c0ff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 800;
+}
+.social-links .fa-brands:hover {
+  background: #27c0ff;
+  color: #fff;
+  transform: translateY(-7px);
+}
+.social-links p {
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 700px) {
+  .footer-left,
+  .footer-right {
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+  .footer-img {
+    top: 25%;
+  }
+
+  .title-text{
+    top: 5%;
+    left: 25%;
+  }
+}

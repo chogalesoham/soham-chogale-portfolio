@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=League+Spartan:wght@200&family=Merriweather:wght@700;900&family=Montserrat:wght@200&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;1,400&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:wght@300&family=Unbounded&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=League+Spartan:wght@200&family=Merriweather:wght@700;900&family=Montserrat:wght@200&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;1,400&family=Roboto+Condensed:wght@700&family=Roboto+Mono&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:wght@300&family=Unbounded&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Dancing+Script:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=League+Spartan:wght@200&family=Merriweather:wght@700;900&family=Montserrat:wght@200&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,200;0,300;1,400&family=Roboto+Condensed:wght@700&family=Roboto+Mono&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:wght@300&family=Unbounded&display=swap");
+
+@import "Static";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $text2;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $color1;
+  overflow-x: hidden;
+  // overflow: hidden;
+}
+
+.disableBtn{
+  color: $color6;
+  background-color: rgb(145, 142, 142) !important;
+  cursor: not-allowed !important;
+}

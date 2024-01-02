@@ -1,0 +1,515 @@
+@import "Static";
+
+@media screen and (max-width: 1367px) {
+  nav {
+    padding: 0 $p_md;
+  }
+
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+        }
+      }
+    }
+
+    #services {
+      height: auto;
+      margin-top: 30px;
+  
+      > section {
+        height: 50%;
+        margin: 3rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        .serviceBox1 {
+          width: 100%;
+          grid-column: 1/3;
+          grid-row: unset;
+        }
+  
+        .serviceBox4 {
+          grid-column: 1/3;
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_md;
+    height: 110vh;
+    > section {
+      > article {
+        height: 20rem;
+        width: 90%;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 20rem;
+        > aside {
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // #services {
+  //   padding: $p_md;
+  //   > section {
+  //     height: 90%;
+  //   }
+  // }
+
+  #services {
+    height: auto;
+    margin-top: 30px;
+
+    > section {
+      height: 50%;
+      margin: 3rem 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .serviceBox1 {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+  #testimonial {
+    padding: $p_md;
+    > section {
+      width: 100%;
+    }
+  }
+
+  #contact > section > form {
+    > input,
+    > button {
+      font: 400 0.8rem $text1;
+      width: 50%;
+    }
+  }
+
+  // footer {
+  //   padding-left: $p_md;
+  // }
+}
+
+@media screen and (max-width: 1100px) {
+  nav {
+    padding: 0 $p_base;
+  }
+
+  #home {
+    height: 110vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_base;
+        > div {
+          > h1 {
+            font: 900 3rem $text1;
+          }
+
+          aside {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_base;
+  }
+
+  // #services {
+  //   padding: $p_base_inverse;
+  //   text-align: center;
+  //   height: auto;
+  // }
+
+  #services {
+    height: auto;
+    margin-top: 30px;
+
+    > section {
+      height: 50%;
+      margin: 3rem 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .serviceBox1 {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    padding: 0 $p_sm;
+    > h2 {
+      font-size: 1.8rem;
+    }
+    > div {
+      gap: 1rem;
+    }
+  }
+
+  #home {
+    height: 95vh;
+    > svg {
+      bottom: -2%;
+    }
+    > section {
+      // margin-left: 5%;
+      &:first-of-type {
+        padding-left: $p_sm;
+        > div {
+          > div {
+            gap: 2rem;
+            width: 100%;
+          }
+          aside {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+    .myphoto {
+      position: absolute;
+      top: 20%;
+    }
+  }
+
+  #work {
+    height: 100vh;
+    margin-top: 0;
+    padding: 0 $p_zero;
+    > section {
+      height: 75%;
+      > article {
+        height: 25rem;
+      }
+      .workItem {
+        height: 25rem;
+      }
+    }
+
+    .timelineBox::afte {
+      top: -8%;
+    }
+  }
+
+  // #services {
+  //   padding: $p_sm_inverse;
+  //   height: 90vh;
+  // }
+
+  #services {
+    height: auto;
+    margin-top: 30px;
+
+    > section {
+      height: 50%;
+      margin: 3rem 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .serviceBox1 {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+
+  #testimonial {
+    padding: $p_zero;
+    > h2 {
+      padding: 3rem;
+      margin-bottom: 0%;
+    }
+    > section {
+      padding: 3rem;
+      height: 45rem;
+      justify-content: space-evenly;
+
+      > article {
+        width: 40%;
+        height: 50%;
+      }
+    }
+  }
+
+  #contact > section > form {
+    > h2 {
+      font: 100 2.3rem $text2;
+    }
+    > input,
+    > button {
+      width: 65%;
+    }
+  }
+
+  footer {
+    padding-left: $p_zero;
+    grid-template-columns: 1fr;
+    > div {
+      width: 100%;
+      border: none;
+      p {
+        width: 50%;
+        margin: 2rem auto;
+      }
+    }
+    > a {
+      margin: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 786px) {
+  nav {
+    > div,
+    > a {
+      display: none;
+    }
+  }
+  .navBtn {
+    display: block;
+  }
+
+  #services {
+    height: auto;
+    margin-top: 30px;
+
+    > section {
+      height: 50%;
+      margin: 3rem 0;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .serviceBox1 {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    height: unset;
+    flex-direction: column-reverse;
+
+    > section {
+      &:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transform: translateX(-10px);
+
+        > div {
+          border: none;
+          padding-top: 3rem;
+          .home-btn a {
+            padding: 4px 3px !important;
+            font-size: 12px;
+            font-weight: 400;
+          }
+
+          > h1 {
+            font: 900 1.5rem $text1;
+          }
+          > div {
+            flex-direction: row;
+            transform: translateX(10px);
+            // margin-top: 60px;
+          }
+          aside {
+            align-items: center;
+            transform: translateX(-10px);
+          }
+
+          article[data-special] {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span {
+              display: block;
+              width: 70%;
+              word-wrap: break-word;
+              font-size: 11px;
+              font-weight: 300;
+            }
+          }
+
+          article {
+            width: 100%;
+            text-align: center;
+            &::after {
+              top: 0;
+              left: 0%;
+            }
+          }
+        }
+      }
+
+      &:last-of-type {
+        border: none;
+      }
+    }
+
+    > svg {
+      font-size: 2rem;
+      bottom: 6%;
+    }
+  }
+
+  #work {
+    margin-top: 20% !important;
+    section {
+      height: 65%;
+      margin-top: 10% !important;
+      position: relative;
+      > article {
+        width: 100%;
+        height: 30vmax;
+      }
+      .workItem {
+        height: 30vmax;
+        box-shadow: 0 0 5px $color1;
+        > aside {
+          padding: 1rem;
+
+          > h3 {
+            margin: 1rem;
+          }
+
+          > p {
+            letter-spacing: 0;
+            line-height: unset;
+            margin: 0%;
+            font-size: 0.75rem;
+          }
+
+          > a {
+            padding: 0.4rem 0.7rem;
+            font-size: 0.7rem;
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox {
+      margin-top: -100px;
+    }
+    .timelineBox::after {
+      left: 31px;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+  }
+
+  #services {
+    height: auto;
+    margin-top: 30px;
+    padding: 1.33vmax !important;
+
+    > section {
+      height: 50%;
+      margin: 3rem 0;
+      padding: 1.33vmax !important;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      .serviceBox1 {
+        width: 100%;
+        grid-column: 1/3;
+        grid-row: unset;
+      }
+
+      .serviceBox4 {
+        grid-column: 1/3;
+      }
+    }
+  }
+  #testimonial > section {
+    height: unset;
+    gap: 3rem;
+    > article {
+      width: 100%;
+      height: 100vw;
+    }
+  }
+
+  #contact {
+    // margin-top: 50px;
+    border-top: 2px solid grey;
+    grid-template-columns: 1fr;
+    > aside {
+      display: none;
+    }
+  }
+
+  .typewriter-para {
+    font-size: 1.1rem !important;
+    font-weight: 800;
+    //   margin: 20px 0;
+    height: 25px;
+    letter-spacing: 4px;
+  }
+}

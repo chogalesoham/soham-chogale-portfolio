@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "date": "React,Redux-Toolkit,Hot-toast",
+      "title": "Food App",
+      "description": "The food ordering app made with reactjs (using vite), css and redux toolkit. This app is completely mobile responsive",
+      "url": "https://full-food-app.netlify.app/",
+      "imgSrc": "https://tse4.mm.bing.net/th?id=OIP.RDbq1pIvIkQXhz3iR9DvEgHaE8&pid=Api&P=0&h=180"
+    },
+
+    {
+      "date": "React,SCSS,React-Router-Dom",
+      "title": "React-UI-Design",
+      "description": "The React-UI-Design made with reactjs (using vite), SCSS and React-Router-Dom. This app is completely mobile responsive",
+      "url": "https://react-ui-designs.netlify.app/",
+      "imgSrc": "https://tse4.mm.bing.net/th?id=OIP.ToWYbkIH92ky-ibllKI3FwHaEK&pid=Api&P=0&h=180"
+    },
+    {
+      "date": "HTML CSS and Java-Script",
+      "title": "E-Commerce Website",
+      "description": "This is the sample mobile responsive Multi page website Design in HTML css And Java-Script ",
+      "url": "https://chogalesoham.github.io/E_Com_WebSite/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+
+    {
+      "date": "HTML CSS and Java-Script",
+      "title": "Multi page website",
+      "description": "This is the sample mobile responsive Multi page E-Commerce Website  Design in HTML css And Java-Script",
+      "url": "https://chogalesoham.github.io/Multi_Page_WebSite/",
+      "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.yHR69nLo4jbvz-28kackHAHaEK&pid=Api&P=0&h=180"
+    },
+    {
+      "date": "HTML CSS Java-Script and Gsap",
+      "title": "Golf-Website",
+      "description": "This is the full Animated Golf-Website in HTML CSS Java-Script and Gsap",
+      "url": "https://chogalesoham.github.io/Golf_Web_Site/",
+      "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.Me8K0cPAqAfSxBTIZLQ7dgHaE8&pid=Api&P=0&h=180"
+    },
+    {
+      "date": "HTML CSS Java-Script",
+      "title": "Hair Studio WebSite ",
+      "description": "This is the full mobile responsive Website  in HTML CSS Java-Script and Gsap",
+      "url": "https://chogalesoham.github.io/Hair_Stodio_WebSite/",
+      "imgSrc": "https://tse3.mm.bing.net/th?id=OIP.RazEP4N2xeuIzM5qgwWGyQHaE8&pid=Api&P=0&h=180"
+    }
+  ]
+}
