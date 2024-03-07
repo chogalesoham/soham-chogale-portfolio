@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "date": "React,CSS,React-Router-Dom",
+      "title": " E-Commerce website",
+      "description": "Online Store using React JS.We will create the Home page where we will display the trending products, offer banner, newsletter subscription and category sections",
+      "url": "https://full-ecom-website-in-react.netlify.app/",
+      "imgSrc": "https://vidhilegalpolicy.in/wp-content/uploads/2020/10/iStock-1206800961-1600x900.jpg"
+    },
+    {
       "date": "React,Redux-Toolkit,Hot-toast",
       "title": "Food App",
       "description": "The food ordering app made with reactjs (using vite), css and redux toolkit. This app is completely mobile responsive",
