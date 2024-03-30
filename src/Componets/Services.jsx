@@ -5,7 +5,8 @@ import { DiHtml5Connectivity } from "react-icons/di";
 import { TbBrandJavascript } from "react-icons/tb";
 import { TbBrandReactNative } from "react-icons/tb";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
-import { FaPython, FaGithub } from "react-icons/fa";
+import { FaPython, FaGithub, FaNode } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 const Services = () => {
@@ -91,8 +92,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <FaGithub />
-          <span>Git and GitHub</span>
+          <FaNode />
+          <span>Node-js and Express-js</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -102,16 +103,16 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <SiTailwindcss />
-          <span>Tailwind CSS</span>
+          <SiMongodb />
+          <span>MongoDB</span>
         </motion.div>
         <motion.div
           className="serviceBox4"
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <FaPython />
-          <span>Python and DJango</span>
+          <FaGithub />
+          <span>Git and GitHub</span>
         </motion.div>
       </section>
     </div>

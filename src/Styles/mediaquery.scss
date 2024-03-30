@@ -19,7 +19,7 @@
     #services {
       height: auto;
       margin-top: 30px;
-  
+
       > section {
         height: 50%;
         margin: 3rem 0;
@@ -30,7 +30,7 @@
           grid-column: 1/3;
           grid-row: unset;
         }
-  
+
         .serviceBox4 {
           grid-column: 1/3;
         }
@@ -70,7 +70,7 @@
 
   #services {
     height: auto;
-    margin-top: 30px;
+    margin-top: 395px;
 
     > section {
       height: 50%;
@@ -412,11 +412,13 @@
 
           > h3 {
             margin: 1rem;
+            font-size: 16px;
           }
 
           > p {
             letter-spacing: 0;
             line-height: unset;
+            font-size: 10px !important;
             margin: 0%;
             font-size: 0.75rem;
           }
@@ -467,7 +469,7 @@
 
   #services {
     height: auto;
-    margin-top: 30px;
+    margin-top: 295px !important;
     padding: 1.33vmax !important;
 
     > section {

@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "date": "React-JS,Tailwind-CSS, Node-js, Express-js,Mongodb",
+      "title": "MERN-Stack Restaurant site",
+      "description": " Fully Functional Restaurant site using MongoDB, Express.js, React.js, and Node.js Features include seamless frontend-backend integration, Firebase authentication, admin panel ",
+      "url": "https://mern-food-website-one.vercel.app/",
+      "imgSrc": "https://i.ibb.co/VpqJ9gt/cover-image.png"
+    },
+
+    {
       "date": "React,CSS,React-Router-Dom",
       "title": " E-Commerce website",
       "description": "Online Store using React JS.We will create the Home page where we will display the trending products, offer banner, newsletter subscription and category sections",
@@ -38,11 +46,11 @@
       "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.yHR69nLo4jbvz-28kackHAHaEK&pid=Api&P=0&h=180"
     },
     {
-      "date": "HTML CSS Java-Script and Gsap",
-      "title": "Golf-Website",
-      "description": "This is the full Animated Golf-Website in HTML CSS Java-Script and Gsap",
-      "url": "https://chogalesoham.github.io/Golf_Web_Site/",
-      "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.Me8K0cPAqAfSxBTIZLQ7dgHaE8&pid=Api&P=0&h=180"
+      "date": " HTML-5,CSS-3, and Vanilla Javascript ",
+      "title": "Responsive Store website",
+      "description": "Responsive Design: Our website is designed to adapt seamlessly to different devices and screen sizes,  desktops, laptops, tablets, and smartphones",
+      "url": "https://javascript-store-website.netlify.app/",
+      "imgSrc": "https://i.ibb.co/920Q5mB/ecom-store-img.webp"
     },
     {
       "date": "HTML CSS Java-Script",
