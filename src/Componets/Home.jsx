@@ -6,6 +6,8 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import myphoto from "../assets/My-pic.png";
 import myResume from "../assets/Soham_Chogale_Resume.pdf";
 
+// Start heder
+
 const Home = () => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
