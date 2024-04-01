@@ -3,7 +3,6 @@ import "../Styles/Heder.scss";
 import { AiOutlineMenu } from "react-icons/ai";
 import mylogo from "../assets/my-logo.png";
 
-
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (
     <>
@@ -27,7 +26,6 @@ export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
 };
 
 const NavContent = ({ setMenuOpen }) => {
- 
   return (
     <>
       <img src={mylogo} alt="My Logo" />
@@ -48,10 +46,11 @@ const NavContent = ({ setMenuOpen }) => {
           Contact
         </a>
       </div>
-      <a href="chogalesoham74@gmail.com">
-        <button>Email</button>
+
+      <a href="mailto:chogalesoham74@gmail.com">
+        {" "}
+        <button>Send Email</button>
       </a>
-     
     </>
   );
 };

@@ -3,7 +3,8 @@ import "../Styles/Home.scss";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import myphoto from "../assets/My-pic.png"
+import myphoto from "../assets/My-pic.png";
+import myResume from "../assets/Soham_Chogale_Resume.pdf";
 
 const Home = () => {
   const clientCount = useRef(null);
@@ -65,7 +66,10 @@ const Home = () => {
           />
 
           <div className="home-btn">
-            <a href="../assets/my-cv.png">Download CV</a>
+            <a href={myResume} download="Soham Chogale Resume.pdf">
+              Download CV
+            </a>
+
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
