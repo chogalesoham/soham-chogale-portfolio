@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "date": "Next.js, React.js, Tailwind CSS, Clerk and HyGraph",
+      "title": "Full-Stack Food Ordering App",
+      "description": "full-stack food ordering app using Next.js, Tailwind CSS, Clerk for authentication, and HyGraph for data management. This project is all about create a modern, responsive web application with secure login and dynamic data fetching.",
+      "url": "https://online-food-ordering-app-topaz.vercel.app/",
+      "imgSrc": "https://design4users.com/wp-content/uploads/2020/08/burger-app-food-delivery-ui-case-study-tubik.jpg"
+    },
+
+    {
+      "date": "React.js, Tailwind CSS, ShadCN UI, React Hooks, clerk and Supabase",
+      "title": "FullStack Job Portal App",
+      "description": "Responsive Design Built a job portal with React.js, Tailwind CSS, and ShadCN UI, offering a seamless, responsive experience across devices.",
+      "url": "https://job-portal-app-nu.vercel.app/",
+      "imgSrc": "https://cdn2.f-cdn.com/files/download/117657449/b9525e.jpg"
+    },
+
+    {
       "date": "React-JS,Tailwind-CSS, Node-js, Express-js,Mongodb",
       "title": "MERN-Stack Restaurant site",
       "description": " Fully Functional Restaurant site using MongoDB, Express.js, React.js, and Node.js Features include seamless frontend-backend integration, Firebase authentication, admin panel ",
@@ -24,13 +40,6 @@
     },
 
     {
-      "date": "React,SCSS,React-Router-Dom",
-      "title": "React-UI-Design",
-      "description": "The React-UI-Design made with reactjs (using vite), SCSS and React-Router-Dom. This app is completely mobile responsive",
-      "url": "https://react-ui-designs.netlify.app/",
-      "imgSrc": "https://tse4.mm.bing.net/th?id=OIP.ToWYbkIH92ky-ibllKI3FwHaEK&pid=Api&P=0&h=180"
-    },
-    {
       "date": "HTML CSS and Java-Script",
       "title": "E-Commerce Website",
       "description": "This is the sample mobile responsive Multi page website Design in HTML css And Java-Script ",
@@ -45,13 +54,7 @@
       "url": "https://chogalesoham.github.io/Multi_Page_WebSite/",
       "imgSrc": "https://tse1.mm.bing.net/th?id=OIP.yHR69nLo4jbvz-28kackHAHaEK&pid=Api&P=0&h=180"
     },
-    {
-      "date": " HTML-5,CSS-3, and Vanilla Javascript ",
-      "title": "Responsive Store website",
-      "description": "Responsive Design: Our website is designed to adapt seamlessly to different devices and screen sizes,  desktops, laptops, tablets, and smartphones",
-      "url": "https://javascript-store-website.netlify.app/",
-      "imgSrc": "https://i.ibb.co/920Q5mB/ecom-store-img.webp"
-    },
+
     {
       "date": "HTML CSS Java-Script",
       "title": "Hair Studio WebSite ",

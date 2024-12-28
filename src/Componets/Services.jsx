@@ -2,12 +2,12 @@ import React from "react";
 import "../Styles/Services.scss";
 import { motion } from "framer-motion";
 import { DiHtml5Connectivity } from "react-icons/di";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript, TbBrandTypescript } from "react-icons/tb";
 import { TbBrandReactNative } from "react-icons/tb";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
-import { FaPython, FaGithub, FaNode } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
+import { RiNextjsLine } from "react-icons/ri";
 
 const Services = () => {
   const animations = {
@@ -92,8 +92,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <FaNode />
-          <span>Node-js and Express-js</span>
+          <RiNextjsLine />
+          <span>Next-js</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -103,8 +103,8 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <SiMongodb />
-          <span>MongoDB</span>
+          <TbBrandTypescript />
+          <span>Type-Script</span>
         </motion.div>
         <motion.div
           className="serviceBox4"

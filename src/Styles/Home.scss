@@ -23,7 +23,7 @@
           font-weight: 900;
           font-family: $text1;
 
-          p{
+          p {
             font-size: 2rem;
           }
         }
@@ -111,16 +111,16 @@
       align-items: center;
       overflow-x: hidden;
 
-        // &::after{
-        //   content: "";
-        //   width: 30vmax;
-        //   height: 30vmax;
-        //   background-color: $color3;
-        //   position: absolute;
-        //   bottom: -10px;
-        //   z-index: -1;
-        //   border-radius: 50%;
-        // }
+      // &::after{
+      //   content: "";
+      //   width: 30vmax;
+      //   height: 30vmax;
+      //   background-color: $color3;
+      //   position: absolute;
+      //   bottom: -10px;
+      //   z-index: -1;
+      //   border-radius: 50%;
+      // }
 
       > img {
         width: 40vmax;

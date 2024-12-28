@@ -4,7 +4,7 @@ import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import myphoto from "../assets/My-pic.png";
-import myResume from "../assets/Soham_Chogale_Resume.pdf";
+import myResume from "../assets/Soham-Chogale-Resume.pdf";
 
 // Start heder
 

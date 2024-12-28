@@ -11,8 +11,10 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    overflow-y: auto;
     flex-direction: column;
     justify-content: center;
+    scrollbar-width: none;
     height: auto;
     margin-top: 40px;
 
