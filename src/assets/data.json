@@ -9,11 +9,11 @@
     },
 
     {
-      "date": "React.js, Tailwind CSS, ShadCN UI, React Hooks, clerk and Supabase",
-      "title": "FullStack Job Portal App",
-      "description": "Responsive Design Built a job portal with React.js, Tailwind CSS, and ShadCN UI, offering a seamless, responsive experience across devices.",
-      "url": "https://job-portal-app-nu.vercel.app/",
-      "imgSrc": "https://cdn2.f-cdn.com/files/download/117657449/b9525e.jpg"
+      "date": "React-JS,Tailwind-CSS,Redux-Toolkit, Node-js, Express-js,Mongodb",
+      "title": "MERN-Stack E-Commerce Website",
+      "description": "Built a full-stack e-commerce app using React.js, Tailwind CSS, Redux, RTK Query, Node.js, Express.js, and MongoDB.Features include JWT authentication, search/filters, cart & checkout, pagination, reviews, and efficient state management.",
+      "url": "https://e-commerce-developer-challenge.vercel.app/",
+      "imgSrc": "https://cdn3.f-cdn.com/files/download/123778245/kitwebsite.png?width=780&height=437&fit=crop"
     },
 
     {

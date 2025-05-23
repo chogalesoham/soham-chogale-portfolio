@@ -7,7 +7,8 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { FaGithub } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { RiNextjsLine } from "react-icons/ri";
+import { RiNextjsLine, RiNodejsLine } from "react-icons/ri";
+import { BiLogoMongodb } from "react-icons/bi";
 
 const Services = () => {
   const animations = {
@@ -68,8 +69,9 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <TbBrandReactNative />
-          <span>React and Redux</span>
+          <RiNextjsLine />
+
+          <span>React-JS and Next-JS</span>
         </motion.div>
       </section>
 
@@ -92,8 +94,8 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <RiNextjsLine />
-          <span>Next-js</span>
+          <RiNodejsLine />
+          <span>Node-js and Express-js</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -103,8 +105,9 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <TbBrandTypescript />
-          <span>Type-Script</span>
+          <BiLogoMongodb />
+
+          <span>MongoDB</span>
         </motion.div>
         <motion.div
           className="serviceBox4"

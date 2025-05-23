@@ -27,7 +27,7 @@ const App = () => {
     };
   }, [ratio]);
 
-  return  (
+  return (
     <div>
       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Heder menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -39,7 +39,7 @@ const App = () => {
       <Footer />
       <Toaster />
     </div>
-  )
+  );
 };
 
 export default App;
